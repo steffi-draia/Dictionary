@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dictionary</title>
+    <style>
+      body{
+        background-image: url('https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80');
+        background-size:100%;
+        background-repeat: norepeat;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="text-align:center">
+    <h1>Dictionary</h1>
+    <h2>Add a new word to the dictionary</h2>
+    <input type="text" id="word">
+    <button id="Search" onClick="searchWord()">Search</button>
+    <button id="AddWord" onClick="addWord()">Add word</button>
+    <h2>...but first search if it already exists :)</h2>
+    <h3 id="statusInput"></h3>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
